@@ -1,0 +1,164 @@
+1)multiplication of two numbers 
+     a) static formate
+        
+public class MultipleTwoNumbers {
+
+	public static void main(String[] args) {
+		double a=50;
+		double b=20;
+		System.out.println("mutiplication of two numbers   ="+  (a*b));
+
+	}
+
+}
+      b) dynamic formate
+   import java.util.Scanner;
+public class MultipleTwoNumbers {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("eneter the first number :");
+		double a= sc.nextDouble();
+		System.out.println("eneter the second  number :");
+		double b= sc.nextDouble();
+		
+		System.out.println("mutiplication of two numbers   = "+  (a*b));
+
+	}
+
+}
+  
+
+
+2)   apply assigment operator
+   a) static
+ 
+
+
+   public class AssignmentOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double assign = 200;
+		assign += 32;
+		
+	System.out.println("addition     : "+assign);
+	
+	assign -= 32;
+	
+	System.out.println("substraction : "+assign);
+	assign *= 32;
+	
+	System.out.println("multipication: "+assign);
+	assign /= 32;
+	
+	System.out.println("division     : "+assign);
+	assign %= 32;
+	
+	System.out.println("modules      : "+assign);
+
+	}
+
+}
+
+
+
+
+
+   b) dyanmical
+  
+
+
+public class AssignmentOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double assign = 200;
+		assign += 32;
+		
+	System.out.println("addition     : "+assign);
+	
+	assign -= 32;
+	
+	System.out.println("substraction : "+assign);
+	assign *= 32;
+	
+	System.out.println("multipication: "+assign);
+	assign /= 32;
+	
+	System.out.println("division     : "+assign);
+	assign %= 32;
+	
+	System.out.println("modules      : "+assign);
+
+	}
+
+}
+
+
+
+
+
+3) apply decrement operator
+
+
+   1)static
+
+  
+public class IncDec {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("eneter the first number :");
+		double a= 50;
+		System.out.println("eneter the second  number :");
+		double b= 100;
+		a++;
+		b++;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+		a--;
+		b++;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+		a++;
+		b--;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+		a--;
+		b--;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+	}
+
+}
+
+
+
+
+
+   b) dynamically
+
+
+   import java.util.Scanner;
+public class IncDec {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("eneter the first number :");
+		double a= sc.nextDouble();
+		System.out.println("eneter the second  number :");
+		double b= sc.nextDouble();
+		a++;
+		b++;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+		a--;
+		b++;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+		a++;
+		b--;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+		a--;
+		b--;
+		System.out.println("inc/dec a values : "+ a +"    inc/dec a values "+b);
+	}
+
+}
