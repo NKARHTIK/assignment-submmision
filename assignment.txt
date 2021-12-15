@@ -1,0 +1,260 @@
+package Assignments;
+
+public class MobileObject 
+{
+	//Declaring Variables
+	String Model;
+	String color;
+	double price;
+	//Creating Constructor
+	public MobileObject(String model, String color, double price) {
+		super();
+		Model = model;
+
+
+
+		this.color = color;
+		this.price = price;
+	}
+	////Creating method
+	void MobileDetails()
+	{
+		System.out.println("Mobile Model is: "+Model);
+		System.out.println("Mobile color is: "+color);
+		System.out.println("Mobile price is: "+price);
+	}
+	public static void main(String[] args)
+	{
+		MobileObject obj1=new MobileObject("Vivo","Blue",15000);
+		MobileObject obj2=new MobileObject("Redmi","White",20000);
+		MobileObject obj3=new MobileObject("One+","Blue",40000);
+		System.out.println("=======================");
+		obj1.MobileDetails();
+		System.out.println("=======================");
+		obj2.MobileDetails();
+		System.out.println("=======================");
+		obj3.MobileDetails();
+		System.out.println("=======================");
+		
+	}
+
+}
+
+
+
+
+
+
+2)====================================
+
+
+package Assignments;
+
+public class HumanObject 
+{
+	//Declaring Variables
+	String name;
+	String Gender;
+	double height;
+	//Creating Constructor
+	public HumanObject(String name, String gender, double height) {
+		super();
+		this.name = name;
+		Gender = gender;
+		this.height = height;
+	}
+	//Creating Method
+	void PersonDetails()
+	{
+		System.out.println("Person Name: "+name);
+		System.out.println("Person Gender: "+Gender);
+		System.out.println("Person height: "+height);
+	}
+	public static void main(String[] args) 
+	{
+		//Creating Objects for class
+		HumanObject obj1=new HumanObject("Naveen","M",6);
+		HumanObject obj2=new HumanObject("Gani","M",6);
+		HumanObject obj3=new HumanObject("Abhishek","M",6);
+		//Invoking or calling methods
+		System.out.println("=========================");
+		obj1.PersonDetails();
+		System.out.println("=========================");
+		obj2.PersonDetails();
+		System.out.println("=========================");
+		obj3.PersonDetails();
+		System.out.println("=========================");
+	}
+	
+
+}
+package Assignments;
+
+public class HumanObject 
+{
+	//Declaring Variables
+	String name;
+	String Gender;
+	double height;
+	//Creating Constructor
+	public HumanObject(String name, String gender, double height) {
+		super();
+		this.name = name;
+		Gender = gender;
+		this.height = height;
+	}
+	//Creating Method
+	void PersonDetails()
+	{
+		System.out.println("Person Name: "+name);
+		System.out.println("Person Gender: "+Gender);
+		System.out.println("Person height: "+height);
+	}
+	public static void main(String[] args) 
+	{
+		//Creating Objects for class
+		HumanObject obj1=new HumanObject("Naveen","M",6);
+		HumanObject obj2=new HumanObject("Gani","M",6);
+		HumanObject obj3=new HumanObject("Abhishek","M",6);
+		//Invoking or calling methods
+		System.out.println("=========================");
+		obj1.PersonDetails();
+		System.out.println("=========================");
+		obj2.PersonDetails();
+		System.out.println("=========================");
+		obj3.PersonDetails();
+		System.out.println("=========================");
+	}
+	
+
+}
+
+
+
+
+3)=========================
+package Assignments;
+
+public class EmployeeObject 
+{
+	//Declaring the variables
+	//Employee is a Object
+	//Employee has a employee name,city,and work location
+	String Ename;
+	String ProperCity;
+	String Location;
+	//Constructor
+	public EmployeeObject(String ename, String ProperCity, String Location) {
+		super();
+		Ename = ename;
+		this.ProperCity = ProperCity;
+		this.Location = Location;
+	}
+	//Creating method
+	void EmployeeDetails()
+	{
+		//Printing Employee Details
+		System.out.println("Employee name is: "+Ename);
+		System.out.println("Employee Proper location is: "+ProperCity);
+		System.out.println("Employee Working location is: "+Location);
+	}
+	public static void main(String[] args) 
+	{
+		//Creating objects for the class
+		EmployeeObject obj1=new EmployeeObject("Naveen","Hyd","Mumbai");
+		EmployeeObject obj2=new EmployeeObject("Abhishek","Chennai","Mumbai");
+		EmployeeObject obj3=new EmployeeObject("Gani","Hyd","Mumbai");
+		System.out.println("=====================================");
+		//Method calling with object reference
+		obj1.EmployeeDetails();
+		System.out.println("=====================================");
+		obj2.EmployeeDetails();
+		System.out.println("=====================================");
+		obj3.EmployeeDetails();
+		System.out.println("=====================================");
+		
+	}
+
+}
+
+
+
+4)=============================
+
+
+package Assignments;
+
+public class CarObject 
+{
+	String Carname;
+	String model;
+	double price;
+	public CarObject(String carname, String model, double price) {
+		super();
+		Carname = carname;
+		this.model = model;
+		this.price = price;
+	}
+	void CarDetails()
+	{
+		System.out.println("Car name is: "+Carname);
+		System.out.println("Car model is: "+model);
+		System.out.println("Car price is: "+price);
+	}
+	public static void main(String[] args)
+	{
+		CarObject obj1=new CarObject("BMW","2021",100000);
+		CarObject obj2=new CarObject("RR","2020",200000);
+		CarObject obj3=new CarObject("Audi","2019",750000);
+		System.out.println("=======================");
+		obj1.CarDetails();
+		System.out.println("=======================");
+		obj2.CarDetails();
+		System.out.println("=======================");
+		obj3.CarDetails();
+		System.out.println("=======================");
+		
+		
+	}
+
+}
+
+
+5)====================================
+package Assignments;
+
+public class AnimalObject
+{
+	String name;
+	String Sound;
+	int NoOfLegs;
+	public AnimalObject(String name, String sound, int noOfLegs) {
+		super();
+		this.name = name;
+		Sound = sound;
+		NoOfLegs = noOfLegs;
+	}
+	void AnimalDetails()
+	{
+		System.out.println("Animal Name: "+name);
+		System.out.println("Animal Sound: "+Sound);
+		System.out.println("Animal NoOfLegs: "+NoOfLegs);
+	}
+	public static void main(String[] args) 
+	{
+		AnimalObject obj1=new AnimalObject("Dog","Bow...Bow...",4);
+		AnimalObject obj2=new AnimalObject("Cat","meow...meow...",4);
+		AnimalObject obj3=new AnimalObject("Snake","ssssuu...ssssuuu...",0);	
+	    System.out.println("=========================");
+		obj1.AnimalDetails();
+		System.out.println("=========================");
+	    obj2.AnimalDetails();
+	    System.out.println("=========================");
+	    obj3.AnimalDetails();
+	    System.out.println("=========================");
+	}
+
+}
+
+
+
