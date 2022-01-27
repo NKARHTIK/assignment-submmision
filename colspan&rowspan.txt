@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colspan and rowspan tble</title>
+    <style>
+        table,th,td{
+            border: 1px solid orangered;
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 50%;">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Tony</td>
+            <td>Stark</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>8917306079</td>
+        </tr>
+        <tr>
+            <td>9938021295</td>
+        </tr>
+
+    </table>
+</body>
+</html>
